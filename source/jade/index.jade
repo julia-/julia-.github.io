@@ -1,0 +1,106 @@
+doctype 5
+html(lang='en')
+	head
+		meta(charset='utf-8')
+		meta(name='description', content='Ping to Pong for charity')
+		meta(name='keywords', content='Ping Pong, charity')
+		meta(name='viewport', content='width=device-width, initial-scale=1.0, user-scalable=no, minimal-ui')
+		meta(name='apple-mobile-web-app-capable', content='yes')
+		meta(name='apple-mobile-web-app-status-bar-style', content='black')
+		title Ping Pong
+		link(rel='stylesheet', type='text/css', href='css/vendor/normalize.css')
+		link(rel='stylesheet', type='text/css', href='css/vendor/font-awesome.min.css')
+		link(rel='stylesheet', type='text/css', href='css/vendor/jquery.bracket.min.css')
+		link(rel='stylesheet', type='text/css', href='css/stylesheet.css')
+		script(src='https://maps.googleapis.com/maps/api/js?sensor=false')
+		script(type='text/javascript', src='js/vendor/jquery.js')
+		script(type='text/javascript', src='js/vendor/jquery-ui-1.10.4.custom.js')
+		script(type='text/javascript', src='js/vendor/jquery.bracket.min.js')
+		script(type='text/javascript', src='js/vendor/jquery.smooth-scroll.js')
+		script(type='text/javascript', src='js/vendor/jquery-scrolltofixed.js')
+		script(type='text/javascript', src='js/vendor/modernizr.custom.86426.js')
+		script(type='text/javascript', src='js/main.js')
+		//- link(href='/favicon.ico', rel='icon', type='image/x-icon')
+		//- link(href='/favicon.ico', rel='shortcut icon', type='image/x-icon')
+		link(rel='apple-touch-icon-precomposed', href='apple-touch-icon.png')
+		link(rel='apple-touch-icon-precomposed', sizes='57x57', href='apple-touch-icon-57x57-precomposed.png')
+		link(rel='apple-touch-icon-precomposed', sizes='72x72', href='apple-touch-icon-72x72-precomposed.png')
+		link(rel='apple-touch-icon-precomposed', sizes='114x114', href='apple-touch-icon-114x114-precomposed.png')
+		link(rel='apple-touch-icon-precomposed', sizes='144x144', href='apple-touch-icon-144x144-precomposed.png')
+	body
+		#main-container
+			header
+				h1 Ping Pong
+				nav#main-nav.clearfix
+					a.menu(href='index.html#about') About
+					a.menu(href='index.html#draw') Draw
+					a.menu(href='index.html#form') Sign up
+					a.menu(href='index.html#prizes') Prizes
+					a.menu(href='index.html#sponsors') Sponsors
+					a.menu.noborder(href='index.html#contact') Contact
+				#pulldown-menu
+					a.fa.fa-bars.fa-2x.fa-fw(href="#")
+			#hero.content
+			#draw.content
+				h2 Who's playing who
+			#bracket
+				//--- JQUERY BRACKET PLUGIN ---//
+			#about.content
+				h2 When and where it's all happening
+				h3 When
+				| Saturday 22 March 2014<br>
+				| Starts at 10 am<br>
+				h3 Where
+				| General Assembly Sydney<br>
+				| Level 1, 608 Harris St<br>
+				| Sydney Ultimo 2007
+			#map-canvas.content
+			#form.content
+				h2 Sign Up
+				form(action='php/signup.php', method='post', enctype='text/plain', autocomplete='on')
+					input(type='text', id='fname', name='fname', size='30', placeholder='first name', required)
+					input(type='text', id='lname', name='lname', size='30', placeholder='last name', required)
+					input(type='email', id='mail', name='email', size='30', placeholder='email', required)
+					input(type='text', id='company', name='company', size='30', placeholder='company', required)
+					input(type='text', id='cowork', name='coworkspace', size='30', placeholder='coworking space', required)
+					input#button(type='submit', name='submit', value='sign up')
+			#prizes.content
+				h2 Prizes
+				p.about-prizes Unbelievable! Some idiot disabled his firewall, meaning all the computers on Seven are teeming with viruses, plus I've just had to walk all the way down the motherfudging stairs, because the lifts are broken AGAIN!
+				.prize
+					h3 1st Prize
+					img.img-prize(src='images/sponsor1.png')
+					p.prize-description They just toss us away like yesterday's jam. You know, it's high tide. But we're not on the coast. I'm closed for maintenance! Closed for maintenance? I've fallen to the communists!
+				.prize
+					h3 2nd Prize
+					img.img-prize(src='images/sponsor2.png')
+					p.prize-description Hello, IT. Have you tried turning it off and on again? Hello, IT. Have you tried turning it off and on again?
+				.prize
+					h3 3rd Prize
+					img.img-prize(src='images/sponsor3.png')
+					p.prize-description See the driver hooks a function by patching the system call table, so its not safe to unload it unless another thread's about to jump in there and do its stuff, and you don't want to end up in the middle of invalid memory!
+				.prize
+					h3 4th Prize
+					img.img-prize(src='images/sponsor4.png')
+					p.prize-description It's like they're pally-wally with us when there's a problem with their printer, but once it's fixed...
+			#sponsors.content
+				h2 Sponsors
+				.circle
+					img(src='images/sponsor1.png')
+					h3 Sponsor 1
+				.circle
+					img(src='images/sponsor2.png')
+					h3 Sponsor 2
+				.circle
+					img(src='images/sponsor3.png')
+					h3 Sponsor 3
+				.circle
+					img(src='images/sponsor4.png')
+					h3 Sponsor 4
+			footer#contact
+				nav#sub-nav
+					a.fa.fa-facebook-square.fa-2x.fa-fw(href='#', title='Like us on Facebook', alt='Facebook icon')
+					a.fa.fa-twitter.fa-2x.fa-fw(href='#', title='Follow us on Twitter', alt='Twitter icon')
+					a.fa.fa-instagram.fa-2x.fa-fw(href='#', title='Follow us on Instagram', alt='Instagram icon')
+					a.fa.fa-youtube-play.fa-2x.fa-fw(href='#', title='Watch us on Youtube', alt='Youtube icon')
+					a.fa.fa-envelope.fa-2x.fa-fw(href='#', title='Email us', alt='email icon')
