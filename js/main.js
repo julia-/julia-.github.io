@@ -108,7 +108,6 @@ function googleMapStyles() {
 	var mapOptions = {
 		center: myLatLng,
 		zoom: 16,
-		scrollwheel: false,
 		mapTypeControlOptions: {
 			mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map-style']
 		}
