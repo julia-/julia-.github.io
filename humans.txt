@@ -1,0 +1,17 @@
+
+/* MAIN */
+  Develop & Main Design: Julia Ryan
+  Twitter: @juliax___
+  Site: http://juliaryan.io/
+  Location: Sydney, Australia	
+
+/* SITE */
+  Last update: 11/07/2011
+  Doctype: HTML5
+  Attribution: CharlieTPhotographic (Flickr: DSCF0537) [CC-BY-2.0 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons
+
+/* SPECIAL THANKS */
+  Simon Rodwell
+  Balder Tol
+
+
