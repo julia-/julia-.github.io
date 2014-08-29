@@ -96,6 +96,11 @@ function googleMapStyles() {
 		center: myLatLng,
 		zoom: 16,
 		disableDefaultUI: true,
+		navigationControl: false,
+		mapTypeControl: false,
+		scaleControl: false,
+		draggable: false,
+		scrollwheel: false,
 		mapTypeControlOptions: {
 			mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map-style']
 		}
