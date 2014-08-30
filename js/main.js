@@ -4,8 +4,6 @@ function initialise () {
 	scrollToFixed();
 	smoothScroll();
 	pullDownMenu();
-	drawSixtyFour();
-
 }
 
 function scrollToFixed() {
@@ -31,25 +29,6 @@ function pullDownMenu () {
 		menu.slideToggle();
 	});
 }
-
-// --- DRAW --- //
-
-function drawSixtyFour() {
-	var participants = {
-		teams : [
-			["Tank Stream Labs", "HUB Sydney "],
-			["Tank Stream Labs", "Muru-D"],
-			["Fishburners ", "Muru-D"],
-			["Fishburners ", "HUB Sydney "]
-			],
-		results : [[
-			[[6, 3], [2, 3], [3, 5], [2, 4]],
-				[[5, 3], [7, 2]],
-				[[5, 3]]
-			]]
-		};
-		$('#bracket').bracket({init: participants});
-	}
 
 
 $(document).ready(initialise);

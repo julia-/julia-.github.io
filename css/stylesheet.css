@@ -340,9 +340,8 @@ footer {
 
 /* line 225 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
   #pulldown-menu:after {
-    content: "";
+    content: " ";
     width: 30px;
-    height: 30px;
     display: inline-block;
     position: absolute;
     top: 10px;
@@ -455,9 +454,8 @@ footer {
 
 /* line 290 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
   #pulldown-menu:after {
-    content: "";
+    content: " ";
     width: 30px;
-    height: 30px;
     display: inline-block;
     position: absolute;
     top: 10px;
