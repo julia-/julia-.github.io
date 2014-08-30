@@ -4,6 +4,8 @@ function initialise () {
 	scrollToFixed();
 	smoothScroll();
 	pullDownMenu();
+	drawSixtyFour();
+
 }
 
 function scrollToFixed() {
@@ -12,6 +14,9 @@ function scrollToFixed() {
         });
 	$('#pulldown-menu').scrollToFixed({
 		maxWidth: 767,
+        });
+	$('#contact').scrollToFixed({
+		bottom: 0,
         });
 }
 
@@ -30,54 +35,79 @@ function pullDownMenu () {
 	});
 }
 
+// --- DRAW --- //
+
+function drawSixtyFour() {
+	var participants = {
+		teams : [
+			["Master", "Jasmine"],
+			["Amy", "Willow"],
+			["Angel", "Spike"],
+			["Veruca", "Tara"],
+			["Cecily", "Anya"],
+			["Giles", "Wesley"],
+			["Sweet", "Skip"],
+			["Connor", "Dawn"],
+			["Kennedy", "Adam"],
+			["Oz", "Xander"],
+			["Parker", "Rona"],
+			["Rack", "Doc"],
+			["Eve", "Marcus"],
+			["Riley", "Silas"],
+			["Wilkins", "Chao-ahn"],
+			["Forrest", "Caleb"],
+			["Amanda", "Vi"],
+			["Doyle", "Cordelia"],
+			["Willy", "Whistler"],
+			["Gunn", "Cassie"],
+			["Jonathon", "Andrew"],
+			["Ford", "Larry"],
+			["Clem", "Lorne"],
+			["Sunday", "Ethan"],
+			["Lilah", "Lindsey"],
+			["Buffy", "Faith"],
+			["Harmony", "Darla"],
+			["Joyce", "Jenny"],
+			["Glory", "Kendra"],
+			["Illyria", "Fred"],
+			["Drusilla", "Angelus"],
+			["Snyder", "Robert"]
+			],
+		results : [[
+			[[3, 5], [2, 4], [6, 3], [2, 3], [1, 5], [5, 3], [7, 2], [1, 2],[3, 5], [2, 4], [6, 3], [2, 3], [1, 5], [5, 3], [7, 2], [1, 2],[3, 5], [2, 4], [6, 3], [2, 3], [1, 5], [5, 3], [7, 2], [1, 2], [3, 5], [2, 4], [6, 3], [2, 3], [1, 5], [5, 3], [7, 2], [1, 2]],
+				[[3, 8],[5, 3], [7, 2], [1, 2],[3, 8],[5, 3], [7, 2], [1, 2],[3, 8],[5, 3], [7, 2], [1, 2], [3, 8], [5, 3], [7, 2], [1, 2]],
+				[[5, 3], [2, 1], [5, 3], [2, 1], [5, 3], [2, 1], [5, 3], [2, 1]],
+				[[7, 2], [2, 1], [5, 3], [2, 1]],
+				[[7, 2], [2, 1]],
+				[[2, 1], [7, 6]]
+			]]
+		};
+		$('#bracket').bracket({init: participants});
+	}
+
+
 $(document).ready(initialise);
 
 
 // --- GOOGLEMAP --- //
 
-var myLatLng = new google.maps.LatLng(-33.863903, 151.20845);
+var myLatLng = new google.maps.LatLng(-33.880446, 151.200346);
 
 function googleMapStyles() {
 	var styles = [
-    {
-        "stylers": [
-            {
-                "hue": "#dd0d0d"
-            }
-        ]
-    },
-    {
-        "featureType": "road",
-        "elementType": "labels",
-        "stylers": [
-            {
-                "visibility": "on"
-            }
-        ]
-    },
-    {
-        "featureType": "road",
-        "elementType": "geometry",
-        "stylers": [
-            {
-                "lightness": 100
-            },
-            {
-                "visibility": "simplified"
-            }
-        ]
-    }
-    ];
+	{
+		"stylers": [
+		{ "hue": "#ff0000" },
+		{ "saturation": 100 },
+		{ "gamma": 0.7 }
+		]
+	}
+	];
 	var styledMap = new google.maps.StyledMapType(styles,
 		{name: "Styled Map"});
 	var mapOptions = {
 		center: myLatLng,
 		zoom: 16,
-		disableDefaultUI: true,
-		navigationControl: false,
-		mapTypeControl: false,
-		scaleControl: false,
-		draggable: false,
 		scrollwheel: false,
 		mapTypeControlOptions: {
 			mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map-style']
@@ -97,6 +127,4 @@ function googleMapStyles() {
 }
 
 google.maps.event.addDomListener(window, 'load', googleMapStyles);
-
-
 
