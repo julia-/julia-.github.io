@@ -30,7 +30,6 @@ function pullDownMenu () {
 	});
 }
 
-
 $(document).ready(initialise);
 
 
@@ -68,7 +67,7 @@ function googleMapStyles() {
             }
         ]
     }
-];
+    ];
 	var styledMap = new google.maps.StyledMapType(styles,
 		{name: "Styled Map"});
 	var mapOptions = {
@@ -98,4 +97,6 @@ function googleMapStyles() {
 }
 
 google.maps.event.addDomListener(window, 'load', googleMapStyles);
+
+
 
