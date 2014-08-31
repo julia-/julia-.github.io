@@ -408,8 +408,8 @@ footer {
   }
 
 /* line 265 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
-  #button-container {
-    margin: 50px;
+  #draw .content {
+    width: 95%;
   }
 
 /* line 267 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
