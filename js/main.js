@@ -2,7 +2,7 @@
 
 function initialise () {
 	scrollToFixed();
-	smoothScroll();
+	// smoothScroll();
 	pullDownMenu();
 }
 
@@ -15,16 +15,16 @@ function scrollToFixed() {
         });
 }
 
-function smoothScroll(){
-		$('a.menu').smoothScroll({
-		easing: 'swing',
-		speed: 600,
-	});
-}
+// function smoothScroll(){
+// 		$('a.menu').smoothScroll({
+// 		easing: 'swing',
+// 		speed: 600,
+// 	});
+// }
 
 function pullDownMenu () {
 	var pull = $('#pulldown-menu');
-	menu = $('nav');
+	menu = $('#main-nav');
 	$(pull).on('click', function(e){
 		menu.slideToggle();
 	});
