@@ -307,7 +307,7 @@ footer {
 /* line 205 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
   .content {
     width: 90%;
-    height: 60vh;
+    height: auto;
   }
 
 /* line 208 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
