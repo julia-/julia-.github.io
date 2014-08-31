@@ -169,7 +169,7 @@ a.menu:focus {
 
 /* line 119 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
 #draw {
-  height: auto;
+  height: 100vh;
   text-align: center;
 }
 
@@ -185,7 +185,7 @@ a.menu:focus {
 
 /* line 128 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
 #signup {
-  height: 60vh;
+  height: auto;
   text-align: center;
 }
 
@@ -236,7 +236,7 @@ a.menu:focus {
 
 /* line 164 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
 #prizes {
-  height: 100vh;
+  height: auto;
   margin: 0 auto;
   text-align: center;
 }
@@ -256,7 +256,7 @@ a.menu:focus {
 
 /* line 178 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
 #sponsors {
-  height: 100vh;
+  height: auto;
   text-align: center;
 }
 
