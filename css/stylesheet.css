@@ -468,8 +468,8 @@ footer {
 
 /* line 294 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
   #hero {
-    width: 100vh;
-    height: 100vh;
+    width: auto;
+    height: auto;
   }
 
 /* line 297 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
