@@ -1,36 +1,36 @@
 
 
-function initialise () {
-	scrollToFixed();
-	smoothScroll();
-	pullDownMenu();
-}
+// function initialise () {
+// 	scrollToFixed();
+// 	smoothScroll();
+// 	pullDownMenu();
+// }
 
-function scrollToFixed() {
-	$('#main-nav').scrollToFixed({
-		minWidth: 768,
-        });
-	$('#pulldown-menu').scrollToFixed({
-		maxWidth: 767,
-        });
-}
+// function scrollToFixed() {
+// 	$('#main-nav').scrollToFixed({
+// 		minWidth: 768,
+//         });
+// 	$('#pulldown-menu').scrollToFixed({
+// 		maxWidth: 767,
+//         });
+// }
 
-function smoothScroll(){
-		$('a.menu').smoothScroll({
-		easing: 'swing',
-		speed: 600,
-	});
-}
+// function smoothScroll(){
+// 		$('a.menu').smoothScroll({
+// 		easing: 'swing',
+// 		speed: 600,
+// 	});
+// }
 
-function pullDownMenu () {
-	var pull = $('#pulldown-menu');
-	menu = $('#main-nav');
-	$(pull).on('click', function(e){
-		menu.slideToggle();
-	});
-}
+// function pullDownMenu () {
+// 	var pull = $('#pulldown-menu');
+// 	menu = $('#main-nav');
+// 	$(pull).on('click', function(e){
+// 		menu.slideToggle();
+// 	});
+// }
 
-$(document).ready(initialise);
+// $(document).ready(initialise);
 
 
 // --- GOOGLEMAP --- //
