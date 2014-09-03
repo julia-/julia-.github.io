@@ -8,8 +8,8 @@
 }
 
 /* line 12 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
-body, footer, #pull {
-  background-color: #fffbea;
+body, #footer-container, #signup {
+  background-color: #000;
 }
 
 /* line 16 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
@@ -18,12 +18,12 @@ body, footer, #pull {
 }
 
 /* line 20 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
-#sponsors, #signup {
-  background-color: #000;
+#sponsors, header, #about {
+  background-color: #fffbea;
 }
 
 /* line 24 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
-#draw, #signup, #prizes, #sponsors {
+#draw, #prizes, #signup {
   color: #fffbea;
 }
 
@@ -44,20 +44,24 @@ a.menu {
   transition: all 0.3s ease;
 }
 
-/* line 45 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 42 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+
+/* line 51 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+
+/* line 62 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 50 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 67 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
 body {
   font: 18px 'Lato', Helvetica, sans-serif;
   color: #000;
 }
 
-/* line 54 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 71 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
 h1,
 h2,
 h3,
@@ -66,57 +70,57 @@ p {
   -webkit-margin-after: 0;
 }
 
-/* line 57 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 74 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
 h1,
 h2 {
   text-align: center;
   padding: 25px 0px;
 }
 
-/* line 60 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 77 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
 h1 {
   font: 52px 'Pacifico', serif;
   font-weight: 600;
 }
 
-/* line 63 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 80 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
 h2 {
-  font: 48px 'Pacifico', serif;
+  font: 50px 'Pacifico', serif;
 }
 
-/* line 65 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 82 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
 h3 {
   text-transform: uppercase;
   text-align: center;
 }
 
-/* line 68 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 85 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
 p {
   padding-bottom: 10px;
 }
 
-/* line 70 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 87 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
 a {
   text-decoration: none;
   color: #e62240;
 }
 
-/* line 73 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 90 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
 .content {
   width: 70%;
-  padding-top: 20px;
+  padding: 50px 0px;
   margin: 0 auto;
   height: auto;
 }
 
-/* line 80 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 97 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
 .heading {
   font: 64px budmojigglerimport, Helvetica, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
 }
 
-/* line 84 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 101 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
 #main-nav {
   width: 100%;
   height: 50px;
@@ -129,7 +133,7 @@ a {
   box-shadow: 0 2px 5px -2px #000;
 }
 
-/* line 94 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 111 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
 a.menu {
   color: #fffbea;
   font-size: 20px;
@@ -137,29 +141,29 @@ a.menu {
   padding: 0px 25px;
 }
 
-/* line 100 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 117 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
 a.menu:hover,
 a.menu:focus {
   color: #e62240;
 }
 
-/* line 103 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 120 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
 .clearfix {
   content: " ";
   display: table;
 }
 
-/* line 106 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 123 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
 .clearfix:after {
   clear: both;
 }
 
-/* line 108 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 125 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
 #pulldown-menu {
   display: none;
 }
 
-/* line 110 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 127 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
 #hero {
   height: 100vh;
   background-image: url("../images/pingpongbg.jpg");
@@ -174,29 +178,29 @@ a.menu:focus {
   filter: sepia(1);
 }
 
-/* line 124 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 141 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
 #draw {
   height: auto;
   text-align: center;
 }
 
-/* line 127 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 144 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
 #draw h2 {
   padding-bottom: 0px;
 }
 
-/* line 129 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 146 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
 #draw img {
   width: 100%;
 }
 
-/* line 133 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 150 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
 #signup {
   height: auto;
   text-align: center;
 }
 
-/* line 136 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 153 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
 .signup-button {
   background: transparent;
   display: block;
@@ -211,7 +215,7 @@ a.menu:focus {
   cursor: pointer;
 }
 
-/* line 149 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 166 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
 .signup-button:hover,
 .signup-button:focus {
   background-color: #fffbea;
@@ -220,12 +224,12 @@ a.menu:focus {
   font-weight: 600;
 }
 
-/* line 155 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 172 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
 .signup-button a {
   color: #fffbea;
 }
 
-/* line 157 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 174 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
 .signup-button a:hover,
 .signup-button a:focus {
   background-color: #fffbea;
@@ -233,39 +237,34 @@ a.menu:focus {
   outline: none;
 }
 
-/* line 162 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
-#margin-button {
+/* line 179 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+#button-container {
   padding: 50px 0px;
 }
 
-/* line 166 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
-#about {
-  margin-bottom: 20px;
-}
-
-/* line 169 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 184 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
 #about h3 {
   padding: 7px 0;
 }
 
-/* line 171 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 186 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
 .about-details {
   text-align: center;
 }
 
-/* line 173 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 188 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
 #map-canvas {
   height: 400px;
 }
 
-/* line 177 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 192 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
 #prizes {
   height: auto;
   margin: 0 auto;
   text-align: center;
 }
 
-/* line 181 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 196 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
 .prize {
   display: inline-block;
   width: 50%;
@@ -273,87 +272,87 @@ a.menu:focus {
   vertical-align: top;
 }
 
-/* line 186 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 201 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
 .prize h3 {
   padding-bottom: 20px;
 }
 
-/* line 191 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 206 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
 #sponsors {
   height: auto;
   text-align: center;
 }
 
-/* line 194 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
-.sponsor-logo img {
-  margin: 20px;
+/* line 209 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+.sponsor-logo {
+  margin: 50px;
 }
 
-/* line 198 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 214 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
 footer {
-  bottom: 0;
   width: 100%;
   font-size: 12px;
-  color: #545454;
+  color: #fffbea;
+  line-height: 2em;
 }
 
-/* line 203 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 219 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
 #contact {
   float: left;
   padding: 10px;
 }
 
-/* line 206 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 222 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
 #attribution {
   float: right;
   padding: 10px;
 }
 
-/* line 210 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 226 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
 @media only screen and (min-width: 320px) and (max-width: 465px) {
 
-/* line 211 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 227 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
   body {
     font: 16px 'Lato', Helvetica, sans-serif;
     margin-bottom: 0px;
   }
 
-/* line 214 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 230 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
   h1 {
-    font-size: 22px;
+    font-size: 32px;
     font-weight: 500;
   }
 
-/* line 217 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 233 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
   h2 {
     font-size: 28px;
   }
 
-/* line 219 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 235 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+  .heading {
+    font-size: 42px;
+    font-weight: 600;
+  }
+
+/* line 238 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
   .content {
     width: 90%;
     height: auto;
   }
 
-/* line 222 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 241 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
   #hero {
     display: none;
   }
 
-/* line 224 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
-  .heading {
-    font-size: 40px;
-    font-weight: 500;
-  }
-
-/* line 228 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 243 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
   #main-nav {
     height: auto;
     width: 100%;
     display: none;
   }
 
-/* line 233 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 248 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
   #pulldown-menu {
     display: block;
     color: #000;
@@ -363,7 +362,7 @@ footer {
     margin: 0 auto;
   }
 
-/* line 240 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 255 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
   #pulldown-menu:after {
     content: "";
     width: 30px;
@@ -373,12 +372,12 @@ footer {
     top: 10px;
   }
 
-/* line 247 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 262 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
   #pulldown-menu a.fa {
     color: #fffbea;
   }
 
-/* line 249 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 264 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
   a.menu {
     display: block;
     width: 50%;
@@ -389,19 +388,19 @@ footer {
     padding: 2px;
   }
 
-/* line 257 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 272 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
   a.menu:hover {
     color: #fffbea;
     background-color: #e62240;
     border-bottom: none;
   }
 
-/* line 261 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 276 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
   a.noborder {
     border-bottom: none;
   }
 
-/* line 263 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 278 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
   .signup-button {
     width: 120px;
     padding: 5px 20px;
@@ -409,12 +408,12 @@ footer {
     margin: 0 auto;
   }
 
-/* line 268 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 283 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
   #draw .content {
-    width: 95%;
+    width: 100%;
   }
 
-/* line 270 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 285 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
   .prize {
     display: block;
     width: 100%;
@@ -424,63 +423,81 @@ footer {
     padding-bottom: 40px;
   }
 
-/* line 277 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 292 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
   .prize h3 {
     padding-bottom: 10px;
   }
 
-/* line 279 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 294 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
   a.fa {
     font-size: 1.5em;
     line-height: 2em;
     margin: 0px 10px;
   }
 
-/* line 283 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 298 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
   .sponsor-logo img {
-    width: 80%;
+    width: 100%;
+  }
+
+/* line 300 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+  footer {
+    font-size: 10px;
+  }
+
+/* line 302 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+  #contact {
+    padding: 10px 0px 5px 10px;
+  }
+
+/* line 304 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+  #attribution {
+    padding: 10px 0px 5px 10px;
   }
 }
 
-/* line 285 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 306 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
 @media only screen and (min-width: 466px) and (max-width: 767px) {
 
-/* line 286 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 307 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
   body {
     font: 16px 'Lato', Helvetica, sans-serif;
     margin-bottom: 0px;
   }
 
-/* line 289 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 310 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
   h1 {
-    font-size: 34px;
-    padding: 20px 0px;
-    margin: 0;
+    font-size: 40px;
   }
 
-/* line 293 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 313 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
   h2 {
-    font-size: 38px;
+    font-size: 40px;
   }
 
-/* line 295 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 315 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
   .heading {
-    font-size: 42px;
+    font-size: 48px;
   }
 
-/* line 297 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 317 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+  .content {
+    width: 90%;
+  }
+
+/* line 319 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
   #hero {
     display: none;
   }
 
-/* line 299 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 321 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
   #main-nav {
     height: auto;
     display: none;
     width: 100%;
   }
 
-/* line 304 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 326 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
   #pulldown-menu {
     display: block;
     color: #000;
@@ -490,7 +507,7 @@ footer {
     margin: 0 auto;
   }
 
-/* line 311 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 333 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
   #pulldown-menu:after {
     content: "";
     width: 30px;
@@ -500,12 +517,12 @@ footer {
     top: 10px;
   }
 
-/* line 318 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 340 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
   #pulldown-menu a.fa {
     color: #fffbea;
   }
 
-/* line 320 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 342 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
   a.menu {
     display: block;
     width: 50%;
@@ -516,46 +533,61 @@ footer {
     padding: 2px;
   }
 
-/* line 328 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 350 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
   a.menu:hover {
     color: #fffbea;
     background-color: #e62240;
     border-bottom: none;
   }
 
-/* line 332 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 354 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
   a.noborder {
     border-bottom: none;
   }
 
-/* line 334 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 356 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
   a.fa {
     font-size: 1.5em;
     line-height: 2em;
-    margin: 0px 10px;
+    margin: 0 10px;
+  }
+
+/* line 360 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+  #draw .content {
+    width: 100%;
   }
 }
 
-/* line 339 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 363 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 
-/* line 340 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 364 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
   h1 {
-    font-size: 44px;
+    font-size: 46px;
   }
 
-/* line 342 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 366 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
   h2 {
     font-size: 42px;
   }
 
-/* line 344 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 368 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
   .heading {
-    font-size: 48px;
+    font-size: 54px;
   }
 
-/* line 346 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+/* line 370 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
   #hero {
     display: none;
+  }
+
+/* line 372 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+  .content {
+    width: 80%;
+  }
+
+/* line 374 : /Users/juliaryan/Desktop/pingpong/source/stylus/stylesheet.styl */
+  #draw .content {
+    width: 100%;
   }
 }
